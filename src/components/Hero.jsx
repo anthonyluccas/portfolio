@@ -1,7 +1,10 @@
 function Hero() {
   return (
     <div>
-      <section className="min-h-[520px] flex flex-col justify-center relative bg-[#0d0d14] text-white text-[12px]">
+      <section
+        id="inicio"
+        className="min-h-[520px] flex flex-col justify-center relative text-white text-[12px]"
+      >
         <div className="inline-flex gap-[8px] items-center border border-solid border-[#7c6aff4c] rounded-full py-[6px] px-[16px] mb-[28px] bg-[#7c6aff1e] text-[#a89fff] w-fit">
           <span className="w-[6px] h-[6px] rounded-[50%] bg-[#7c6aff] inline-block animate-pulse"></span>
           Disponível para projetos
@@ -12,9 +15,9 @@ function Hero() {
           Ideias em <em className="not-italic text-[#7c6aff]">Código</em>
         </h1>
         <p className="text-[#ffffff80] text-[16px] leading-[1.7] max-w-[440px] mb-[36px]">
-          Desenvolvedor full-stack especializado em aplicações escaláveis e
-          interfaces de alta performance. Focado em criar experiências digitais
-          que unem estética à funcionalidade impecável.
+          Transformo ideias em soluções digitais reais. Seja uma landing page,
+          um sistema web ou uma API — estou disponível para tirar o seu projeto
+          do papel.
         </p>
         <div className="flex gap-[14px]">
           <button className="bg-[#7c6aff] text-white py-[12px] px-[28px] rounded-[10px] text-[14px] font-medium">
@@ -36,7 +39,7 @@ function Hero() {
           </div>
           <div>
             &nbsp;&nbsp;name:
-            <span className="text-[#c3e88d]"> "full stack",</span>
+            <span className="text-[#c3e88d]"> "Anthony Luccas",</span>
           </div>
           <div>
             &nbsp;&nbsp;stack: &#91;
@@ -45,10 +48,10 @@ function Hero() {
           </div>
           <div>
             &nbsp;&nbsp;status:
-            <span className="text-[#c3e88d]"> "open to work"</span>
+            <span className="text-[#c3e88d]"> "disponível para freelas"</span>
           </div>
           <div>&#125;</div>
-          <div className="text-[#546e7a]">// sempre evoluindo</div>
+          <div className="text-[#546e7a]">// em constante evolução</div>
         </div>
       </section>
       <hr className="border-t-[1px] border-solid border-[#ffffff0f]" />
