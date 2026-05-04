@@ -21,7 +21,7 @@ function Projects() {
           {projects.map((project) => (
             <a
               key={project.id}
-              className="bg-[#13131e] border border-solid border-[#ffffff12] rounded-[14px] transition-colors duration-200 ease-in-out hover:border-[#7c6aff66]"
+              className="bg-[#13131e] border border-solid border-[#ffffff12] rounded-[14px] transition-colors duration-200 ease-in-out hover:border-[#7c6aff66] cursor-pointer"
             >
               <div className="text-[32px] text-[#7c6aff99] h-[160px] flex items-center justify-center relative bg-[#16213e]">
                 ◈ ◈ ◈
