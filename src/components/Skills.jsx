@@ -1,6 +1,26 @@
 import skills from "../data/skills";
+import {
+  Html5Original,
+  Css3Original,
+  JavascriptOriginal,
+  ReactOriginal,
+  NodejsOriginal,
+  GitOriginal,
+  TailwindcssOriginal,
+  PostgresqlOriginal,
+} from "devicons-react";
 
 function Skills() {
+  const icons = {
+    HTML: <Html5Original size={40} />,
+    CSS: <Css3Original size={40} />,
+    JavaScript: <JavascriptOriginal size={40} />,
+    React: <ReactOriginal size={40} />,
+    "Node.js": <NodejsOriginal size={40} />,
+    Git: <GitOriginal size={40} />,
+    Tailwind: <TailwindcssOriginal size={40} />,
+    PostgreSQL: <PostgresqlOriginal size={40} />,
+  };
   return (
     <div>
       <section
@@ -20,7 +40,9 @@ function Skills() {
               key={skill.id}
               className="bg-[#13131e] border border-solid border-[#ffffff12] rounded-[12px] p-[20px] text-center"
             >
-              <div className="text-[28px] mb-[10px]">{skill.icon}</div>
+              <div className="flex justify-center text-[28px] mb-[10px]">
+                {icons[skill.name]}
+              </div>
               <span className="text-[12px] text-[#ffffff80] font-mono">
                 {skill.name}
               </span>

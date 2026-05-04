@@ -1,18 +1,35 @@
 const skills = [
   {
     id: 1,
-    name: "React",
-    icon: "✅",
+    name: "HTML",
   },
   {
     id: 2,
-    name: "Node.js",
-    icon: "✅",
+    name: "CSS",
   },
   {
     id: 3,
+    name: "JavaScript",
+  },
+  {
+    id: 4,
+    name: "React",
+  },
+  {
+    id: 5,
+    name: "Node.js",
+  },
+  {
+    id: 6,
     name: "Git",
-    icon: "✅",
+  },
+  {
+    id: 7,
+    name: "Tailwind",
+  },
+  {
+    id: 8,
+    name: "PostgreSQL",
   },
 ];
 
