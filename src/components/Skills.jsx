@@ -5,7 +5,7 @@ function Skills() {
     <div>
       <section
         id="skills"
-        className="min-h-[520px] flex flex-col justify-center relative text-white text-[12px]"
+        className="min-h-[520px] flex flex-col justify-center relative text-white text-[12px] pb-0"
       >
         <span className="text-[11px] tracking-[3px] text-[#7c6aff] uppercase mb-[14px]">
           // habilidades
