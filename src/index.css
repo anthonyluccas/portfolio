@@ -11,6 +11,12 @@
 body {
     font-family: "Space Grotesk";
     background-color: #0d0d14;
+    min-height: 100dvh;
+    color: #fff;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 section {

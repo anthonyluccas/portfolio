@@ -2,7 +2,7 @@ function Hero() {
   return (
     <div>
       <section
-        id="inicio"
+        id="hero"
         className="min-h-[520px] flex flex-col justify-center relative text-white text-[12px]"
       >
         <div className="inline-flex gap-[8px] items-center border border-solid border-[#7c6aff4c] rounded-full py-[6px] px-[16px] mb-[28px] bg-[#7c6aff1e] text-[#a89fff] w-fit">

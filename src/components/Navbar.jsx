@@ -5,31 +5,31 @@ function Navbar() {
 
       <div className="flex gap-7">
         <a
-          href="#inicio"
+          href="#hero"
           className="text-sm text-white/50 hover:text-white transition-colors"
         >
           Início
         </a>
         <a
-          href="#sobre"
+          href="#about"
           className="text-sm text-white/50 hover:text-white transition-colors"
         >
           Sobre
         </a>
         <a
-          href="#projetos"
+          href="#projects"
           className="text-sm text-white/50 hover:text-white transition-colors"
         >
           Projetos
         </a>
         <a
-          href="#habilidades"
+          href="#"
           className="text-sm text-white/50 hover:text-white transition-colors"
         >
           Habilidades
         </a>
         <a
-          href="#contato"
+          href="#"
           className="text-sm text-white/50 hover:text-white transition-colors"
         >
           Contato
