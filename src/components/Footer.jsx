@@ -10,7 +10,7 @@ function Footer() {
             <div>{/*foto*/}</div>
             <a
               href="https://github.com/anthonyluccas"
-              className="text-[#7c6aff] hover:text-[#a89fff] text-[13px] cursor-pointer"
+              className="inline-block text-[#7c6aff] hover:text-[#a89fff] text-[13px] hover:scale-110 transition-all cursor-pointer"
             >
               GitHub
             </a>
@@ -19,7 +19,7 @@ function Footer() {
             <div>{/*foto*/}</div>
             <a
               href="https://linkedin.com/in/luccasdev/"
-              className="text-[#7c6aff] hover:text-[#a89fff] text-[13px] cursor-pointer"
+              className="inline-block text-[#7c6aff] hover:text-[#a89fff] text-[13px] hover:scale-110 transition-all cursor-pointer"
             >
               LinkedIn
             </a>

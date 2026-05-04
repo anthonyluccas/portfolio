@@ -20,10 +20,10 @@ function Hero() {
           do papel.
         </p>
         <div className="flex gap-[14px]">
-          <button className="bg-[#7c6aff] text-white py-[12px] px-[28px] rounded-[10px] text-[14px] font-medium">
+          <button className="bg-[#7c6aff] hover:bg-[#6a58e0] hover:scale-105 text-white py-[12px] px-[28px] rounded-[10px] text-[14px] font-medium transition-all">
             Ver Projetos
           </button>
-          <button className="bg-transparent text-[#ffffffb3] border border-solid border-[#ffffff26] py-[12px] px-[28px] rounded-[10px] text-[14px]">
+          <button className="bg-transparent hover:bg-white/5 hover:scale-105 text-[#ffffffb3] border border-solid border-[#ffffff26] py-[12px] px-[28px] rounded-[10px] text-[14px] transition-all">
             Vamos Conversar
           </button>
         </div>

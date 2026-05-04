@@ -45,7 +45,7 @@ function Contact() {
             className="w-[100%] bg-[#0d0d14] border border-solid border-[#ffffff1a] rounded-[10px] py-[12px] px-[16px] text-[#e2e2f0] text-[14px] mb-[14px] resize-none h-[100px]"
           ></textarea>
 
-          <button className="w-[100%] bg-[#7c6aff] py-[12px] px-[28px] rounded-[10px] text-[14px] font-[500]">
+          <button className="w-[100%] bg-[#7c6aff] hover:bg-[#6a58e0] hover:scale-105 py-[12px] px-[28px] rounded-[10px] text-[14px] font-[500] transition-all">
             Enviar Mensagem
           </button>
         </form>
