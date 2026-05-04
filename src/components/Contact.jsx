@@ -3,7 +3,7 @@ function Contact() {
     <div>
       <section
         id="contact"
-        className="min-h-[520px] flex flex-col  relative text-white text-[12px] pt-0"
+        className="min-h-[520px] flex flex-col  relative text-white text-[12px]"
       >
         <span className="text-[11px] tracking-[3px] text-[#7c6aff] uppercase mb-[14px]">
           // contato

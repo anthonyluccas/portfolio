@@ -12,7 +12,8 @@
   "dependencies": {
     "devicons-react": "^1.5.0",
     "react": "^19.2.5",
-    "react-dom": "^19.2.5"
+    "react-dom": "^19.2.5",
+    "react-scroll": "^1.9.3"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
