@@ -10,7 +10,7 @@ function About() {
         </span>
         <h2 className="text-[36px] font-bold mb-[12px]">Minha Jornada</h2>
         <p className="text-[#ffffff73] text-[15px] mb-[48px] max-w-[440px] leading-[1.6]">
-          Uma linha do tempo de código, café e aprendizado constante
+          Uma linha do tempo de código, café e aprendizado constante.
         </p>
         <div className="grid grid-cols-2 gap-[32px] items-sretch">
           <div className="bg-[#13131e] border border-solid border-[#ffffff12] rounded-[14px] p-[28px]">

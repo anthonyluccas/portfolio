@@ -23,13 +23,13 @@ function Navbar() {
           Projetos
         </a>
         <a
-          href="#"
+          href="#skills"
           className="text-sm text-white/50 hover:text-white transition-colors"
         >
           Habilidades
         </a>
         <a
-          href="#"
+          href="#contact"
           className="text-sm text-white/50 hover:text-white transition-colors"
         >
           Contato
