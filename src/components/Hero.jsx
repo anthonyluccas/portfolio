@@ -1,10 +1,7 @@
 function Hero() {
   return (
-    <div>
-      <section
-        id="hero"
-        className="min-h-[520px] flex flex-col justify-center relative text-white text-[12px]"
-      >
+    <div id="hero">
+      <section className="min-h-[520px] flex flex-col justify-center relative text-white text-[12px] pt-0">
         <div className="inline-flex gap-[8px] items-center border border-solid border-[#7c6aff4c] rounded-full py-[6px] px-[16px] mb-[28px] bg-[#7c6aff1e] text-[#a89fff] w-fit">
           <span className="w-[6px] h-[6px] rounded-[50%] bg-[#7c6aff] inline-block animate-pulse"></span>
           Disponível para projetos

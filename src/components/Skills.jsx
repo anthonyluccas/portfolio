@@ -50,6 +50,7 @@ function Skills() {
           ))}
         </div>
       </section>
+      <hr className="border-t-[1px] border-solid border-[#ffffff0f]" />
     </div>
   );
 }
