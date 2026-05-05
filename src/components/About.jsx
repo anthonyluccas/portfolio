@@ -12,7 +12,7 @@ function About() {
         <p className="text-[#ffffff73] text-[15px] mb-[48px] max-w-[440px] leading-[1.6]">
           Uma linha do tempo de código, café e aprendizado constante.
         </p>
-        <div className="grid grid-cols-2 gap-[32px] items-sretch">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[32px] items-sretch">
           <div className="bg-[#13131e] border border-solid border-[#ffffff12] rounded-[14px] p-[28px]">
             <h3 className="text-[17px] mb-[12px] font-[600]">Minha Jornada</h3>
             <p className="text-[#ffffff80] text-[14px] leading-[1.7]">

@@ -34,7 +34,7 @@ function Skills() {
         <p className="text-[#ffffff73] text-[15px] mb-[48px] max-w-[440px] leading-[1.6]">
           Tecnologias que uso no dia a dia.
         </p>
-        <div className="grid grid-cols-4 gap-[12px] mb-[48px]">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-[12px] mb-[48px]">
           {skills.map((skill) => (
             <div
               key={skill.id}

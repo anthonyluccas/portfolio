@@ -1,12 +1,14 @@
+import { Link } from "react-scroll";
+
 function Hero() {
   return (
     <div id="hero">
-      <section className="min-h-[520px] flex flex-col justify-center relative text-white text-[12px] pt-0">
+      <section className="min-h-[520px] flex flex-col justify-center relative text-white text-[12px] pt-0 px-6 md:px-[40px]">
         <div className="inline-flex gap-[8px] items-center border border-solid border-[#7c6aff4c] rounded-full py-[6px] px-[16px] mb-[28px] bg-[#7c6aff1e] text-[#a89fff] w-fit">
           <span className="w-[6px] h-[6px] rounded-[50%] bg-[#7c6aff] inline-block animate-pulse"></span>
           Disponível para projetos
         </div>
-        <h1 className="text-[54px] font-bold leading-[1.1] mb-[20px] max-w-[560px]">
+        <h1 className="text-[36px] md:text-[54px] font-bold leading-[1.1] mb-[20px] max-w-[560px]">
           Transformando
           <br />
           Ideias em <em className="not-italic text-[#7c6aff]">Código</em>
@@ -17,14 +19,26 @@ function Hero() {
           do papel.
         </p>
         <div className="flex gap-[14px]">
-          <button className="bg-[#7c6aff] hover:bg-[#6a58e0] hover:scale-105 text-white py-[12px] px-[28px] rounded-[10px] text-[14px] font-medium transition-all">
+          <Link
+            to="projects"
+            smooth={true}
+            duration={650}
+            offset={-10}
+            className="bg-[#7c6aff] hover:bg-[#6a58e0] hover:scale-105 text-white py-[12px] px-[28px] rounded-[10px] text-[14px] font-medium transition-all"
+          >
             Ver Projetos
-          </button>
-          <button className="bg-transparent hover:bg-white/5 hover:scale-105 text-[#ffffffb3] border border-solid border-[#ffffff26] py-[12px] px-[28px] rounded-[10px] text-[14px] transition-all">
+          </Link>
+          <Link
+            to="contact"
+            smooth={true}
+            duration={650}
+            offset={-10}
+            className="bg-transparent hover:bg-white/5 hover:scale-105 text-[#ffffffb3] border border-solid border-[#ffffff26] py-[12px] px-[28px] rounded-[10px] text-[14px] transition-all"
+          >
             Vamos Conversar
-          </button>
+          </Link>
         </div>
-        <div className="absolute right-[40px] top-[50%] translate-y-[-50%] bg-[#13131e] border border-solid border-[#ffffff14] rounded-[12px] p-[24px] font-mono text-[12px] leading-[1.9] min-w-[260px]">
+        <div className="absolute right-[40px] top-[50%] translate-y-[-50%] bg-[#13131e] border border-solid border-[#ffffff14] rounded-[12px] p-[24px] font-mono text-[12px] leading-[1.9] min-w-[260px] hidden md:block">
           <div className="flex gap-[6px] mb-[16px]">
             <div className="bg-[#ff5f57] w-[10px] h-[10px] rounded-[50%]"></div>
             <div className="bg-[#febc2e] w-[10px] h-[10px] rounded-[50%]"></div>

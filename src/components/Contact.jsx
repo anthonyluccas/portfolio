@@ -1,9 +1,23 @@
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
 function Contact() {
+  const form = useRef();
+  function handleSubmit(e) {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      "service_4t4fee4",
+      "template_btem511",
+      form.current,
+      "XNr38kSZPfbseP0a0",
+    );
+  }
   return (
     <div>
       <section
         id="contact"
-        className="min-h-[861px] flex flex-col  relative text-white text-[12px]"
+        className="min-h-[890px] flex flex-col  relative text-white text-[12px]"
       >
         <span className="text-[11px] tracking-[3px] text-[#7c6aff] uppercase mb-[14px]">
           // contato
@@ -16,12 +30,13 @@ function Contact() {
         </p>
 
         <form
-          action=""
+          ref={form}
+          onSubmit={handleSubmit}
           className="bg-[#13131e] border border-solid border-[#ffffff12] rounded-[16px] p-[40px] max-w-[500px]"
         >
           <input
             type="text"
-            name=""
+            name="from_name"
             id=""
             placeholder="Nome Completo"
             required
@@ -30,7 +45,7 @@ function Contact() {
 
           <input
             type="email"
-            name=""
+            name="from_email"
             id=""
             placeholder="Email"
             required
@@ -38,7 +53,7 @@ function Contact() {
           />
 
           <textarea
-            name=""
+            name="message"
             id=""
             placeholder="Mensagem"
             required

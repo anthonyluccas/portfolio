@@ -17,11 +17,13 @@ function Projects() {
           Uma seleção dos trabalhos técnicos recentes.
         </p>
 
-        <div className="grid grid-cols-2 gap-[20px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px]">
           {projects.map((project) => (
             <a
               key={project.id}
               href={project.link}
+              target="_blank"
+              rel="noreferrer"
               className="bg-[#13131e] border border-solid border-[#ffffff12] rounded-[14px] transition-colors duration-200 ease-in-out hover:border-[#7c6aff66] hover:scale-[1.02] transition-all cursor-pointer"
             >
               <div className="text-[32px] text-[#7c6aff99] h-[160px] flex items-center justify-center relative bg-[#16213e]">
